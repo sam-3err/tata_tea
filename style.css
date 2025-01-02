@@ -1,0 +1,138 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main{
+    width:100%;
+    height:100vh;
+}
+nav{
+ position:fixed;
+ display: flex;
+ width:100%;
+ height:10vh;
+ align-items:center;
+ justify-content:space-between;
+ padding: 0vw 10vw;
+z-index: 99;
+}
+nav a,i{
+    color:white;
+    text-decoration:none;
+}
+.cnav{
+    display:flex;
+    gap:4vw;
+}
+nav i{
+    padding-right:50px;
+    font-size: larger;
+}
+.one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    background: linear-gradient(150deg,rgb(104, 10, 14)
+    ,goldenrod);
+}
+#tea{
+    width:400px;
+    height:550px;
+    z-index:2;
+    position:absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+#tulsi{
+    position:absolute;
+    width:150px;
+    rotate:10deg;
+    height: 250px;
+    top:10%;
+    left:33%;
+    z-index:5;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#ginger{
+    position:absolute;
+    height:250px;
+    width:250px;
+    bottom:8%;
+    right:25%;
+    z-index: 3;
+    rotate:-15deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    
+}
+#cardm{
+    position: absolute;
+    z-index:4;
+    width:170px;
+    bottom:10%;
+    left:33%;
+    rotate:20deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#tata{
+    position:absolute;
+    z-index: 10;
+    color:white;
+    font-size:100px ;
+    left:18%;
+    
+}
+#teea{
+    position:absolute;
+    z-index:10;
+    color:white;
+    font-size:100px ;
+    right:23%;
+   
+}
+.two{
+    display: flex;
+  width:100%;
+  height:100vh;
+  background:rgba(108, 122, 18, 0.947);
+}
+.third{
+    background:linear-gradient(rgba(108, 122, 18, 0.947),goldenrod);
+    display:flex;
+    width:100%;
+    height:3vh;
+    align-content: center;
+    justify-content:center;
+    font-size: larger;
+    gap:3rem;
+}
+.third a{
+    text-decoration:none;
+    top:100%;
+}
+
+    
+.first,.second{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height:100vh;
+}
+.first svg{
+    margin-top:50vh;
+    width:80%;
+    transform:rotateX(70deg);
+    height:100%
+} 
+.second h1{
+    color:rgb(104, 10, 14);
+    text-decoration: underline;
+}
+.second p{
+    color: white;
+    font-size:20px;
+}
