@@ -43,6 +43,7 @@ nav i{
     height:550px;
     z-index:2;
     position:absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 
 }
 #tulsi{
@@ -53,6 +54,7 @@ nav i{
     top:10%;
     left:33%;
     z-index:5;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
 #ginger{
     position:absolute;
@@ -62,6 +64,7 @@ nav i{
     right:25%;
     z-index: 3;
     rotate:-15deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
     
 }
 #cardm{
@@ -71,13 +74,14 @@ nav i{
     bottom:10%;
     left:33%;
     rotate:20deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
 }
 #tata{
     position:absolute;
     z-index: 10;
     color:white;
     font-size:100px ;
-    left:17%;
+    left:18%;
     
 }
 #teea{
@@ -85,7 +89,7 @@ nav i{
     z-index:10;
     color:white;
     font-size:100px ;
-    right:22%;
+    right:23%;
    
 }
 .two{
@@ -94,6 +98,22 @@ nav i{
   height:100vh;
   background:rgba(108, 122, 18, 0.947);
 }
+.third{
+    background:linear-gradient(rgba(108, 122, 18, 0.947),goldenrod);
+    display:flex;
+    width:100%;
+    height:3vh;
+    align-content: center;
+    justify-content:center;
+    font-size: larger;
+    gap:3rem;
+}
+.third a{
+    text-decoration:none;
+    top:100%;
+}
+
+    
 .first,.second{
     width:50%;
     display:flex;
@@ -104,8 +124,9 @@ nav i{
 }
 .first svg{
     margin-top:50vh;
-    width:90%;
+    width:80%;
     transform:rotateX(70deg);
+    height:100%
 } 
 .second h1{
     color:rgb(104, 10, 14);
